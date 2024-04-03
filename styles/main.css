@@ -59,7 +59,7 @@ main{
   }
   .product-image-container{
     height:180px;
-   margin-bottom:8px;
+   margin-bottom:10px;
   }
   .product-image{
      
@@ -71,10 +71,11 @@ main{
   }
   .limit-prod-name-to-2-lines{
     height:40px;
-  }
-  .product-name{
     justify-self: start;
     align-self: start;
+  }
+  .product-name{
+   
     margin:0;
     font-size: 14px;
     line-height: 18px;
