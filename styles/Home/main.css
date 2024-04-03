@@ -50,8 +50,7 @@ main{
   }
   .product-container{
   display:flex;
-  justify-content: center;
-  align-items: center;
+ 
     border-right:1px solid lightgray;
     border-bottom: 1px solid lightgray;
     padding:24px;
@@ -67,8 +66,7 @@ main{
     }
     .limit-prod-name-to-2-lines{
       height:40px;
-      justify-self: start;
-      align-self: start;
+    
     }
     .product-name{
      
@@ -92,16 +90,14 @@ main{
       font-size:14px;
     }
     .product-price-cents{
-    justify-self: start;
-    align-self: start;
+   
     font-weight: bold;
     font-size:14px;
     margin-bottom:8px;
     }
   select{
       border:1px solid rgba(128, 128, 128, 0.297) ;
-      justify-self:start;
-      align-self:start;
+     width:46px;
       padding:3px 5px;
       color:rgb(33,33,33);
       background-color: rgb(240,240,240);
@@ -110,9 +106,11 @@ main{
       box-shadow: 0 2px 5px rgba(213, 217,217);
       margin-bottom:36px;
     }
+    .product-spacer{
+        flex:1;
+    }
     .add-to-cart-btn{
-      justify-self: start;
-    align-self: start;
+   
     border:none;
     background-color:rgba(255, 216, 20);
     width:100%;
@@ -123,6 +121,32 @@ main{
     line-height: 18px;;
   
     }
+
+    .variation-name{
+        font-weight:500;
+        color:rgb(33,33,33);
+        font-size: 14px;
+        margin-bottom:8px;
+    }
+    .variation-options-container{
+       display:flex;
+       gap:8px;
+      margin-bottom:14px;
+     
+    }
+    .variation-options-container button{
+        border:none;
+        background-color: white;
+        border-radius:4px;
+        padding-top:3px;
+        padding-bottom:3px;
+        border:1px solid lightgray;
+        }
+        .variation-options-container button.is-selected{
+            border:2px solid rgb(230, 130, 48);
+        }
+
+
       
     
      
